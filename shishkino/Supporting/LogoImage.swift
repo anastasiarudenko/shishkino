@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LogoImage.swift
 //  shishkino
 //
 //  Created by neonxxx on 04.11.2019.
@@ -8,14 +8,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LogoImage: View {
     var body: some View {
-        Text("Hello, World!")
+        Image("max")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LogoImage_Preview: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LogoImage()
     }
 }
+

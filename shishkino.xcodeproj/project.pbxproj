@@ -9,64 +9,70 @@
 /* Begin PBXBuildFile section */
 		061D1180237004510095B2F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D117F237004510095B2F8 /* AppDelegate.swift */; };
 		061D1182237004510095B2F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D1181237004510095B2F8 /* SceneDelegate.swift */; };
-		061D1184237004510095B2F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D1183237004510095B2F8 /* ContentView.swift */; };
 		061D1186237004560095B2F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061D1185237004560095B2F8 /* Assets.xcassets */; };
-		061D1189237004560095B2F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061D1188237004560095B2F8 /* Preview Assets.xcassets */; };
 		061D118C237004560095B2F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061D118A237004560095B2F8 /* LaunchScreen.storyboard */; };
-		061D1197237004560095B2F8 /* shishkinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D1196237004560095B2F8 /* shishkinoTests.swift */; };
-		061D11A2237004560095B2F8 /* shishkinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D11A1237004560095B2F8 /* shishkinoUITests.swift */; };
+		061D11B1237005DC0095B2F8 /* Kino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D11B0237005DC0095B2F8 /* Kino.swift */; };
+		061D11B32370070E0095B2F8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D11B22370070E0095B2F8 /* Data.swift */; };
+		061D11B5237008850095B2F8 /* ForCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D11B4237008850095B2F8 /* ForCategory.swift */; };
+		061D11B8237010760095B2F8 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D11B7237010760095B2F8 /* BlurView.swift */; };
+		061D11BA2370109A0095B2F8 /* LogoSoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D11B92370109A0095B2F8 /* LogoSoc.swift */; };
+		061D11BC237010C10095B2F8 /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D11BB237010C10095B2F8 /* LogoImage.swift */; };
+		061D11BE237010D90095B2F8 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D11BD237010D90095B2F8 /* Welcome.swift */; };
+		061D11C02370110F0095B2F8 /* WelcomeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D11BF2370110F0095B2F8 /* WelcomeImage.swift */; };
+		061D11C3237011E80095B2F8 /* The-Standoff-at-Sparrow-Creek-2018-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061D11C2237011E80095B2F8 /* The-Standoff-at-Sparrow-Creek-2018-3.jpg */; };
+		061D11C5237011EF0095B2F8 /* Podcast-Cover-1-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061D11C4237011EF0095B2F8 /* Podcast-Cover-1-1.jpg */; };
+		061D11C7237011F30095B2F8 /* Podcast-Cover-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061D11C6237011F30095B2F8 /* Podcast-Cover-2.jpg */; };
+		061D11CE237011FD0095B2F8 /* The-Art-of-Self-Defense-2019-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061D11C8237011FC0095B2F8 /* The-Art-of-Self-Defense-2019-2.jpg */; };
+		061D11CF237011FD0095B2F8 /* Tall-Grass-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061D11C9237011FD0095B2F8 /* Tall-Grass-6.jpg */; };
+		061D11D0237011FD0095B2F8 /* el-camino1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061D11CA237011FD0095B2F8 /* el-camino1.jpg */; };
+		061D11D1237011FD0095B2F8 /* Girl-on-the-Third-Floor-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061D11CB237011FD0095B2F8 /* Girl-on-the-Third-Floor-10.jpg */; };
+		061D11D2237011FD0095B2F8 /* top-10-new-horror-cover-1024x428.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061D11CC237011FD0095B2F8 /* top-10-new-horror-cover-1024x428.jpg */; };
+		061D11D3237011FD0095B2F8 /* Bloodline-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061D11CD237011FD0095B2F8 /* Bloodline-5.jpg */; };
+		061D11D52370122E0095B2F8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D11D42370122E0095B2F8 /* Home.swift */; };
+		061D11D9237012AD0095B2F8 /* porydat-kaver-1-1024x435.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061D11D8237012AD0095B2F8 /* porydat-kaver-1-1024x435.jpg */; };
+		061D11DB237012F50095B2F8 /* Cover-Disney-1-1024x484.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061D11DA237012F50095B2F8 /* Cover-Disney-1-1024x484.jpg */; };
+		061D11DD237013210095B2F8 /* music-better-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061D11DC237013210095B2F8 /* music-better-cover.jpg */; };
+		061D11DF237013410095B2F8 /* the-thing-lost-coverr-1024x437.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061D11DE237013410095B2F8 /* the-thing-lost-coverr-1024x437.jpg */; };
+		061D11E12370135D0095B2F8 /* Curse-Bond-25-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061D11E02370135D0095B2F8 /* Curse-Bond-25-cover.jpg */; };
+		062FDDF22370636F009BABAC /* kinoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 062FDDF12370636E009BABAC /* kinoData.json */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		061D1193237004560095B2F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 061D1174237004510095B2F8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 061D117B237004510095B2F8;
-			remoteInfo = shishkino;
-		};
-		061D119E237004560095B2F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 061D1174237004510095B2F8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 061D117B237004510095B2F8;
-			remoteInfo = shishkino;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		061D117C237004510095B2F8 /* shishkino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shishkino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		061D117F237004510095B2F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		061D1181237004510095B2F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		061D1183237004510095B2F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		061D1185237004560095B2F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		061D1188237004560095B2F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		061D118B237004560095B2F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		061D118D237004560095B2F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		061D1192237004560095B2F8 /* shishkinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shishkinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		061D1196237004560095B2F8 /* shishkinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shishkinoTests.swift; sourceTree = "<group>"; };
-		061D1198237004560095B2F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		061D119D237004560095B2F8 /* shishkinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shishkinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		061D11A1237004560095B2F8 /* shishkinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shishkinoUITests.swift; sourceTree = "<group>"; };
-		061D11A3237004560095B2F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		061D11B0237005DC0095B2F8 /* Kino.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kino.swift; sourceTree = "<group>"; };
+		061D11B22370070E0095B2F8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		061D11B4237008850095B2F8 /* ForCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForCategory.swift; sourceTree = "<group>"; };
+		061D11B7237010760095B2F8 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		061D11B92370109A0095B2F8 /* LogoSoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoSoc.swift; sourceTree = "<group>"; };
+		061D11BB237010C10095B2F8 /* LogoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImage.swift; sourceTree = "<group>"; };
+		061D11BD237010D90095B2F8 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		061D11BF2370110F0095B2F8 /* WelcomeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeImage.swift; sourceTree = "<group>"; };
+		061D11C2237011E80095B2F8 /* The-Standoff-at-Sparrow-Creek-2018-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The-Standoff-at-Sparrow-Creek-2018-3.jpg"; sourceTree = "<group>"; };
+		061D11C4237011EF0095B2F8 /* Podcast-Cover-1-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Podcast-Cover-1-1.jpg"; sourceTree = "<group>"; };
+		061D11C6237011F30095B2F8 /* Podcast-Cover-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Podcast-Cover-2.jpg"; sourceTree = "<group>"; };
+		061D11C8237011FC0095B2F8 /* The-Art-of-Self-Defense-2019-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The-Art-of-Self-Defense-2019-2.jpg"; sourceTree = "<group>"; };
+		061D11C9237011FD0095B2F8 /* Tall-Grass-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tall-Grass-6.jpg"; sourceTree = "<group>"; };
+		061D11CA237011FD0095B2F8 /* el-camino1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "el-camino1.jpg"; sourceTree = "<group>"; };
+		061D11CB237011FD0095B2F8 /* Girl-on-the-Third-Floor-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Girl-on-the-Third-Floor-10.jpg"; sourceTree = "<group>"; };
+		061D11CC237011FD0095B2F8 /* top-10-new-horror-cover-1024x428.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "top-10-new-horror-cover-1024x428.jpg"; sourceTree = "<group>"; };
+		061D11CD237011FD0095B2F8 /* Bloodline-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bloodline-5.jpg"; sourceTree = "<group>"; };
+		061D11D42370122E0095B2F8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		061D11D8237012AD0095B2F8 /* porydat-kaver-1-1024x435.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "porydat-kaver-1-1024x435.jpg"; sourceTree = "<group>"; };
+		061D11DA237012F50095B2F8 /* Cover-Disney-1-1024x484.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover-Disney-1-1024x484.jpg"; sourceTree = "<group>"; };
+		061D11DC237013210095B2F8 /* music-better-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "music-better-cover.jpg"; sourceTree = "<group>"; };
+		061D11DE237013410095B2F8 /* the-thing-lost-coverr-1024x437.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-thing-lost-coverr-1024x437.jpg"; sourceTree = "<group>"; };
+		061D11E02370135D0095B2F8 /* Curse-Bond-25-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Curse-Bond-25-cover.jpg"; sourceTree = "<group>"; };
+		062FDDF12370636E009BABAC /* kinoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kinoData.json; sourceTree = "<group>"; };
+		0687286F23D9E5FC006323F0 /* kinoData1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kinoData1.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		061D1179237004510095B2F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		061D118F237004560095B2F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		061D119A237004560095B2F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				061D117E237004510095B2F8 /* shishkino */,
-				061D1195237004560095B2F8 /* shishkinoTests */,
-				061D11A0237004560095B2F8 /* shishkinoUITests */,
 				061D117D237004510095B2F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				061D117C237004510095B2F8 /* shishkino.app */,
-				061D1192237004560095B2F8 /* shishkinoTests.xctest */,
-				061D119D237004560095B2F8 /* shishkinoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +101,17 @@
 		061D117E237004510095B2F8 /* shishkino */ = {
 			isa = PBXGroup;
 			children = (
+				061D118D237004560095B2F8 /* Info.plist */,
 				061D117F237004510095B2F8 /* AppDelegate.swift */,
+				061D11B4237008850095B2F8 /* ForCategory.swift */,
+				061D11D42370122E0095B2F8 /* Home.swift */,
 				061D1181237004510095B2F8 /* SceneDelegate.swift */,
-				061D1183237004510095B2F8 /* ContentView.swift */,
 				061D1185237004560095B2F8 /* Assets.xcassets */,
 				061D118A237004560095B2F8 /* LaunchScreen.storyboard */,
-				061D118D237004560095B2F8 /* Info.plist */,
+				061D11AF237004AF0095B2F8 /* Models */,
 				061D1187237004560095B2F8 /* Preview Content */,
+				061D11C1237011D70095B2F8 /* Resources */,
+				061D11B6237010430095B2F8 /* Supporting */,
 			);
 			path = shishkino;
 			sourceTree = "<group>";
@@ -113,27 +119,52 @@
 		061D1187237004560095B2F8 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				061D1188237004560095B2F8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		061D1195237004560095B2F8 /* shishkinoTests */ = {
+		061D11AF237004AF0095B2F8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				061D1196237004560095B2F8 /* shishkinoTests.swift */,
-				061D1198237004560095B2F8 /* Info.plist */,
+				061D11B0237005DC0095B2F8 /* Kino.swift */,
+				061D11B22370070E0095B2F8 /* Data.swift */,
 			);
-			path = shishkinoTests;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		061D11A0237004560095B2F8 /* shishkinoUITests */ = {
+		061D11B6237010430095B2F8 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
-				061D11A1237004560095B2F8 /* shishkinoUITests.swift */,
-				061D11A3237004560095B2F8 /* Info.plist */,
+				061D11B7237010760095B2F8 /* BlurView.swift */,
+				061D11B92370109A0095B2F8 /* LogoSoc.swift */,
+				061D11BB237010C10095B2F8 /* LogoImage.swift */,
+				061D11BD237010D90095B2F8 /* Welcome.swift */,
+				061D11BF2370110F0095B2F8 /* WelcomeImage.swift */,
 			);
-			path = shishkinoUITests;
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		061D11C1237011D70095B2F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				061D11CD237011FD0095B2F8 /* Bloodline-5.jpg */,
+				061D11DA237012F50095B2F8 /* Cover-Disney-1-1024x484.jpg */,
+				061D11E02370135D0095B2F8 /* Curse-Bond-25-cover.jpg */,
+				061D11CA237011FD0095B2F8 /* el-camino1.jpg */,
+				061D11CB237011FD0095B2F8 /* Girl-on-the-Third-Floor-10.jpg */,
+				061D11DC237013210095B2F8 /* music-better-cover.jpg */,
+				061D11C4237011EF0095B2F8 /* Podcast-Cover-1-1.jpg */,
+				061D11C6237011F30095B2F8 /* Podcast-Cover-2.jpg */,
+				061D11D8237012AD0095B2F8 /* porydat-kaver-1-1024x435.jpg */,
+				061D11C9237011FD0095B2F8 /* Tall-Grass-6.jpg */,
+				061D11C8237011FC0095B2F8 /* The-Art-of-Self-Defense-2019-2.jpg */,
+				061D11C2237011E80095B2F8 /* The-Standoff-at-Sparrow-Creek-2018-3.jpg */,
+				061D11DE237013410095B2F8 /* the-thing-lost-coverr-1024x437.jpg */,
+				061D11CC237011FD0095B2F8 /* top-10-new-horror-cover-1024x428.jpg */,
+				062FDDF12370636E009BABAC /* kinoData.json */,
+				0687286F23D9E5FC006323F0 /* kinoData1.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,42 +187,6 @@
 			productReference = 061D117C237004510095B2F8 /* shishkino.app */;
 			productType = "com.apple.product-type.application";
 		};
-		061D1191237004560095B2F8 /* shishkinoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 061D11A9237004560095B2F8 /* Build configuration list for PBXNativeTarget "shishkinoTests" */;
-			buildPhases = (
-				061D118E237004560095B2F8 /* Sources */,
-				061D118F237004560095B2F8 /* Frameworks */,
-				061D1190237004560095B2F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				061D1194237004560095B2F8 /* PBXTargetDependency */,
-			);
-			name = shishkinoTests;
-			productName = shishkinoTests;
-			productReference = 061D1192237004560095B2F8 /* shishkinoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		061D119C237004560095B2F8 /* shishkinoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 061D11AC237004560095B2F8 /* Build configuration list for PBXNativeTarget "shishkinoUITests" */;
-			buildPhases = (
-				061D1199237004560095B2F8 /* Sources */,
-				061D119A237004560095B2F8 /* Frameworks */,
-				061D119B237004560095B2F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				061D119F237004560095B2F8 /* PBXTargetDependency */,
-			);
-			name = shishkinoUITests;
-			productName = shishkinoUITests;
-			productReference = 061D119D237004560095B2F8 /* shishkinoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,14 +199,6 @@
 				TargetAttributes = {
 					061D117B237004510095B2F8 = {
 						CreatedOnToolsVersion = 11.2;
-					};
-					061D1191237004560095B2F8 = {
-						CreatedOnToolsVersion = 11.2;
-						TestTargetID = 061D117B237004510095B2F8;
-					};
-					061D119C237004560095B2F8 = {
-						CreatedOnToolsVersion = 11.2;
-						TestTargetID = 061D117B237004510095B2F8;
 					};
 				};
 			};
@@ -229,8 +216,6 @@
 			projectRoot = "";
 			targets = (
 				061D117B237004510095B2F8 /* shishkino */,
-				061D1191237004560095B2F8 /* shishkinoTests */,
-				061D119C237004560095B2F8 /* shishkinoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,23 +225,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				061D11C5237011EF0095B2F8 /* Podcast-Cover-1-1.jpg in Resources */,
 				061D118C237004560095B2F8 /* LaunchScreen.storyboard in Resources */,
-				061D1189237004560095B2F8 /* Preview Assets.xcassets in Resources */,
+				061D11D2237011FD0095B2F8 /* top-10-new-horror-cover-1024x428.jpg in Resources */,
+				061D11CE237011FD0095B2F8 /* The-Art-of-Self-Defense-2019-2.jpg in Resources */,
+				061D11D0237011FD0095B2F8 /* el-camino1.jpg in Resources */,
+				061D11DD237013210095B2F8 /* music-better-cover.jpg in Resources */,
+				061D11DB237012F50095B2F8 /* Cover-Disney-1-1024x484.jpg in Resources */,
+				061D11D9237012AD0095B2F8 /* porydat-kaver-1-1024x435.jpg in Resources */,
+				061D11CF237011FD0095B2F8 /* Tall-Grass-6.jpg in Resources */,
+				061D11D1237011FD0095B2F8 /* Girl-on-the-Third-Floor-10.jpg in Resources */,
+				061D11E12370135D0095B2F8 /* Curse-Bond-25-cover.jpg in Resources */,
+				062FDDF22370636F009BABAC /* kinoData.json in Resources */,
+				061D11D3237011FD0095B2F8 /* Bloodline-5.jpg in Resources */,
+				061D11C3237011E80095B2F8 /* The-Standoff-at-Sparrow-Creek-2018-3.jpg in Resources */,
 				061D1186237004560095B2F8 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		061D1190237004560095B2F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		061D119B237004560095B2F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				061D11DF237013410095B2F8 /* the-thing-lost-coverr-1024x437.jpg in Resources */,
+				061D11C7237011F30095B2F8 /* Podcast-Cover-2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,41 +253,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				061D1180237004510095B2F8 /* AppDelegate.swift in Sources */,
+				061D11BE237010D90095B2F8 /* Welcome.swift in Sources */,
 				061D1182237004510095B2F8 /* SceneDelegate.swift in Sources */,
-				061D1184237004510095B2F8 /* ContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		061D118E237004560095B2F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				061D1197237004560095B2F8 /* shishkinoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		061D1199237004560095B2F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				061D11A2237004560095B2F8 /* shishkinoUITests.swift in Sources */,
+				061D11D52370122E0095B2F8 /* Home.swift in Sources */,
+				061D11B1237005DC0095B2F8 /* Kino.swift in Sources */,
+				061D11BA2370109A0095B2F8 /* LogoSoc.swift in Sources */,
+				061D11B5237008850095B2F8 /* ForCategory.swift in Sources */,
+				061D11C02370110F0095B2F8 /* WelcomeImage.swift in Sources */,
+				061D11B32370070E0095B2F8 /* Data.swift in Sources */,
+				061D11BC237010C10095B2F8 /* LogoImage.swift in Sources */,
+				061D11B8237010760095B2F8 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		061D1194237004560095B2F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 061D117B237004510095B2F8 /* shishkino */;
-			targetProxy = 061D1193237004560095B2F8 /* PBXContainerItemProxy */;
-		};
-		061D119F237004560095B2F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 061D117B237004510095B2F8 /* shishkino */;
-			targetProxy = 061D119E237004560095B2F8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		061D118A237004560095B2F8 /* LaunchScreen.storyboard */ = {
@@ -470,90 +434,6 @@
 			};
 			name = Release;
 		};
-		061D11AA237004560095B2F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S7XQ9QJE56;
-				INFOPLIST_FILE = shishkinoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = n.shishkinoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shishkino.app/shishkino";
-			};
-			name = Debug;
-		};
-		061D11AB237004560095B2F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S7XQ9QJE56;
-				INFOPLIST_FILE = shishkinoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = n.shishkinoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shishkino.app/shishkino";
-			};
-			name = Release;
-		};
-		061D11AD237004560095B2F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S7XQ9QJE56;
-				INFOPLIST_FILE = shishkinoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = n.shishkinoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = shishkino;
-			};
-			name = Debug;
-		};
-		061D11AE237004560095B2F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S7XQ9QJE56;
-				INFOPLIST_FILE = shishkinoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = n.shishkinoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = shishkino;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -571,24 +451,6 @@
 			buildConfigurations = (
 				061D11A7237004560095B2F8 /* Debug */,
 				061D11A8237004560095B2F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		061D11A9237004560095B2F8 /* Build configuration list for PBXNativeTarget "shishkinoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				061D11AA237004560095B2F8 /* Debug */,
-				061D11AB237004560095B2F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		061D11AC237004560095B2F8 /* Build configuration list for PBXNativeTarget "shishkinoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				061D11AD237004560095B2F8 /* Debug */,
-				061D11AE237004560095B2F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

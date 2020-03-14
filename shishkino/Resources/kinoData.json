@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Girl on the Third Floor (2019)",
+        "id": 1000,
+        "category": "Свежее",
+        "imageName": "Girl-on-the-Third-Floor-10"
+    },
+    {
+        "name": "ТОП 10 НОВЫХ ХОРРОРОВ",
+        "id": 1001,
+        "category": "Горячие списки",
+        "imageName": "top-10-new-horror-cover-1024x428"
+    },
+    {
+        "name": "Проблемные Актеры или Что не так с «Бондом 25»?",
+        "id": 1002,
+        "category": "Размышления",
+        "imageName": "Curse-Bond-25-cover"
+    },
+    {
+        "name": "The Art of Self Defense (2019)",
+        "id": 1003,
+        "category": "Свежее",
+        "imageName": "The-Art-of-Self-Defense-2019-2"
+    },
+    {
+        "name": "Bloodline (2019)",
+        "id": 1004,
+        "category": "Свежее",
+        "imageName": "Bloodline-5"
+    },
+    {
+        "name": "Как Мы Потеряли Мифологию «Нечто»",
+        "id": 1005,
+        "category": "Размышления",
+        "imageName": "the-thing-lost-coverr-1024x437"
+    },
+    {
+        "name": "ТОП 10: КОГДА МУЗЫКА ЛУЧШЕ ФИЛЬМА",
+        "id": 1006,
+        "category": "Горячие списки",
+        "imageName": "music-better-cover",
+    },
+    {
+        "name": "СпецМнение: Марвел Убивают Блокбастеры?",
+        "id": 1007,
+        "category": "Размышления",
+        "imageName": "Cover-Disney-1-1024x484"
+    },
+    {
+        "name": "El Camino (2019)",
+        "id": 1008,
+        "category": "Свежее",
+        "imageName": "el-camino1"
+    },
+    {
+        "name": "The Standoff at Sparrow Creek (2018)",
+        "id": 1009,
+        "category": "Свежее",
+        "imageName": "The-Standoff-at-Sparrow-Creek-2018-3"
+    },
+    {
+        "name": "28 ФИЛЬМОВ, ЧТОБЫ ХОРОШО ПОРЫДАТЬ",
+        "id": 1010,
+        "category": "Горячие списки",
+        "imageName": "porydat-kaver-1-1024x435"
+    },
+    {
+        "name": "ыыы",
+        "id": 1011,
+        "category": "Подкасты",
+        "imageName": "Podcast-Cover-2"
+    },
+    {
+        "name": "edes",
+        "id": 1012,
+        "category": "Подкасты",
+        "imageName": "Podcast-Cover-1-1"
+    },
+    {
+        "name": "In the Tall Grass (2019)",
+        "id": 1013,
+        "category": "Свежее",
+        "imageName": "Tall-Grass-6"
+    }
+]
