@@ -7,7 +7,6 @@
 //
 
 import SwiftUI
-import CoreLocation
 
 struct Kino: Hashable, Codable, Identifiable {
     var name: String
@@ -27,3 +26,25 @@ extension Kino {
         ImageStore.shared.image(name: imageName)
     }
 }
+
+struct Menu : Identifiable {
+    var id = UUID()
+    var title: String
+    var action: String
+}
+
+let menuData = [
+    Menu(title: "Ревью", action: ""),
+    Menu(title: "О кино", action: ""),
+    Menu(title: "Горячие списки", action: ""),
+    Menu(title: "Frame Fapping", action: ""),
+    Menu(title: "Около кино", action: ""),
+    Menu(title: "Интервью", action: ""),
+    Menu(title: "Movie Tribute's", action: "")]
+
+let OKinoData = [
+    Menu(title: "Как смотреть", action: ""),
+    Menu(title: "Размышления", action: ""),
+    Menu(title: "Кинолекции", action: ""),
+    Menu(title: "Колхозный анализ", action: ""),
+    Menu(title: "Подкасты", action: "")]

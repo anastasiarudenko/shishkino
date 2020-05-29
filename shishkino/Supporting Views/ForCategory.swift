@@ -13,19 +13,15 @@ struct CategoryItem0: View {
     var body: some View {
         VStack(alignment: .leading) {
             kino.image
-                .renderingMode(.original)
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 180, height: 100)
-                .cornerRadius(5)
-            Text(kino.name)
-                .foregroundColor(.gray)
-                .font(.caption)
-                .multilineTextAlignment(.leading)
-                .padding()
-                .frame(width: 180)
-                .lineLimit(2)
+                .menuItem()
+                .frame(height: 100)
+                
+            if kino.category.rawValue != "Подкасты" {
+                Text(kino.name)
+                    .captionItem()
+            }
         }
+        .frame(width: 180)
         .padding(.leading, 15)
     }
 }
@@ -35,17 +31,11 @@ struct CategoryItem1: View {
     var body: some View {
         VStack(alignment: .leading) {
             kino.image
-                .renderingMode(.original)
-                .resizable()
-                .aspectRatio(contentMode: .fill)
+                .menuItem()
                 .frame(width: 200, height: 300)
-                .cornerRadius(5)
             Text(kino.name)
-                .foregroundColor(.gray)
-                .font(.caption)
-                .padding()
+                .captionItem()
                 .frame(width: 200)
-                .lineLimit(2)
         }
         .cornerRadius(30)
         .frame(width: 246, height: 360)
@@ -54,20 +44,6 @@ struct CategoryItem1: View {
     }
 }
 
-struct CategoryItem2: View {
-    var kino: Kino
-    var body: some View {
-        VStack(alignment: .leading) {
-            kino.image
-                .renderingMode(.original)
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 100, height: 100)
-                .cornerRadius(5)
-        }
-        .padding(.leading, 15)
-    }
-}
 
 struct ForCategory: View {
     var categoryName: String
@@ -100,17 +76,14 @@ struct ForCategory: View {
                             
                             if self.categoryName == "Размышления" {
                                 CategoryItem0(kino: kino)
-                                    .frame(height: 200)
                             }
                         
                             if self.categoryName == "Горячие списки" {
                                 CategoryItem0(kino: kino)
-                                    .frame(height: 200)
                             }
                             
                             if self.categoryName == "Подкасты" {
-                                CategoryItem2(kino: kino)
-                                    .frame(height: 150)
+                                CategoryItem0(kino: kino)
                             }
                         }
                     }
@@ -124,7 +97,7 @@ struct ForCategory: View {
 struct ForCategory_Previews: PreviewProvider {
     static var previews: some View {
         ForCategory(
-            categoryName: kinoData[0].category.rawValue,
+            categoryName: kinoData[2].category.rawValue,
             items: Array(kinoData.prefix(4))
         )
     }

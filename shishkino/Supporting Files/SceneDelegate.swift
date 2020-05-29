@@ -24,7 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let window = UIWindow(windowScene: windowScene)
             window.rootViewController = UIHostingController(rootView: Welcome())
             window.makeKeyAndVisible()
-            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 5)
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3)
             {
                 self.window = window
                 window.rootViewController = UIHostingController(rootView: CategoryHome())
